@@ -3,8 +3,25 @@
     "start": "nodemon ./app.js"
   },
   "dependencies": {
+    "express": "^4.18.0",
     "html-template-tag": "^3.2.0",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
-  }
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0"
+  },
+  "name": "wikistack",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelsCard/WikiStack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelsCard/WikiStack/issues"
+  },
+  "homepage": "https://github.com/MiguelsCard/WikiStack#readme",
+  "description": ""
 }
